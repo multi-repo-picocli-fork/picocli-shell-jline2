@@ -8,7 +8,7 @@ version = "$projectVersion"
 ext.moduleName = 'info.picocli.shell.jline2'
 
 dependencies {
-    api rootProject
+    api "info.picocli:picocli:$projectVersion"
     api supportDependencies.jline2
 }
 
